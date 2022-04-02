@@ -78,15 +78,17 @@ body {
 .name-address p {
   color: var(--white-color);
 }
-.name-address {
+.footer {
   background-color: teal;
 }
 .address > .text {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
 }
 .address-list .link {
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
 }
