@@ -1,0 +1,89 @@
+/* index.html*/
+
+/* hero */
+.hero {
+  letter-spacing: 0.06em;
+}
+
+.hero-title {
+  color: var(--white-color);
+  background-color: teal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+}
+.button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+}
+/* section */
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/* features */
+
+.features .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.features .text {
+  color: var(--title-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* team */
+.team .name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.team .position {
+  color: var(--title-text-color);
+
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+/* portfolio.html */
+.btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: inherit;
+  cursor: pointer;
+}
+
+.btn.primary {
+  background-color: var(--secondary-background-color);
+  border: none;
+}
+
+.btn.primary:hover,
+.btn.primary:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  border: none;
+}
+
+.products .name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.products .position {
+  font-size: 16px;
+  line-height: 1.87;
+}

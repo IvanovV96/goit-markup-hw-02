@@ -1,0 +1,96 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* вторичный цвет текста rgba(255,255,255,.6) */
+/* белый #ffffff */
+/* акцент #2196F3 */
+/* вторичный цвет фона #2F303A */
+/* вторичный цвет фона #f5f4fa*/
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --secondary-background-color: #f5f4fa;
+}
+body {
+  font-family: Roboto, serif;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background-color: var(--white-color);
+}
+.list {
+  list-style: none;
+}
+.link-none {
+  text-decoration: none;
+}
+
+/* logo */
+.logo {
+  color: var(--black-color);
+  font-family: Raleway, serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+.logo > span {
+  color: var(--accent-color);
+}
+/* site nav */
+.nav .name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav .name:hover,
+.nav .name:focus {
+  color: var(--accent-color);
+}
+.nav .name:visited {
+  color: var(--primary-text-color);
+}
+.nav .name.current {
+  color: var(--accent-color);
+}
+/* contacts */
+.contacts .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+/* footer */
+.name-address p {
+  color: var(--white-color);
+}
+.name-address {
+  background-color: teal;
+}
+.address > .text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+.address-list .link {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
+}
+.address-list .link:hover,
+.address-list .link:focus {
+  color: var(--accent-color);
+}
